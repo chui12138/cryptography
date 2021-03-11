@@ -1,0 +1,11 @@
+GET https://druidv6.if.qidian.com/argus/api/v2/bookdetail/get?bookId=1010734492&cbid=0&isOutBook=0 HTTP/1.1
+Cache-Control: no-cache, max-stale=0
+Cookie: appId=12; areaId=30; lang=cn; mode=normal; bar=60; qimei=869384030435042; loginType=4; cmfuToken="N((o1jW-5pgdBdXfZO9yT4WIWkdMfGoNKeLxPz4Qosl-musnaZd8GMeS0IBcufLrIvELJ97NZCM4Ilit88oqRNLVACIJ-qSqAyv0"; ywkey=; ywguid=0; QDInfo=zXsy5r2/DawzQQSdN02T7tMid9vTM6iBMyKcEsosJZ5YK+feyq/7PDzHwl/4B0T6l44aa5atopfSZyqfA3N2L1PJycqplXqu3+APHjIfWvuFuWqgtYQszqbm0Mz2S738EGWcBdsr+UB7SXX8Rzhw24C+ADnVt7YY
+QDInfo: zXsy5r2/DawzQQSdN02T7tMid9vTM6iBMyKcEsosJZ5YK+feyq/7PDzHwl/4B0T6l44aa5atopfSZyqfA3N2L1PJycqplXquRHQ1j2W8H6SL8OlQHiSYbDEHvDvi4fE4rS2sVrEJtE2Yj6ZZ3OPlch3ZfQkntlbP
+User-Agent: Mozilla/mobile QDReaderAndroid/7.9.18/426/1000023/869384030435042
+AegisSign: SPqeBKBOAHQo6zQ4YDYaRm40Rn59J+v1olPdRS10L4V87hKgPnZ3xv0xjvRJ YQ6+uvXBt1wFKvCff5WJPtQvfnh476ZYSvGZ8ZFBmorwb5K/V/wite5rygWD vP0IJJA8UkEGCN+zi9V0/QfPuE19ZN55RMf7Npj7X4gimTJAt4g=
+QDSign: R7TCs6Tou2ViKigBviTL5eGHSTBp4sVjcAVee/jkfwRfUo6hSokwTHk5Z6fW 10AGHyPxS2eTT+0gbcocX/AW3dKNu5pYzZUT8A8eZzztd5PkmMjYVXpivCwP FVox5LLgLG/Wqxwz7w7l+/hia+9Ah5ZXVbNIhi9ywOIwpRoawm8=
+Host: druidv6.if.qidian.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

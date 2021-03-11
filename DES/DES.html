@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DES</title>
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
+    <script type="text/javascript" src="layui/layui.js"></script>
+</head>
+
+<body>
+    <ul class="layui-nav layui-bg-cyan">
+      <li class="layui-nav-item"><a href="">密码学</a></li>
+      <li class="layui-nav-item"><a href="../fsjm/fsjm.html">仿射密码加密</a></li>
+      <li class="layui-nav-item"><a href="../fsjm/fsjm-jm.html">仿射密码解密</a></li>
+      <li class="layui-nav-item"><a href="../RC4/RC4.html">流密码RC4</a></li>
+      <li class="layui-nav-item"><a href="../LSFR/LSFR.html">流密码LSFR</a></li>
+      <li class="layui-nav-item layui-this"><a href="../DES/DES.html">DES</a></li>
+      <li class="layui-nav-item"><a href="../RSA/RSA.html">RSA</a></li>
+      <li class="layui-nav-item"><a href="../MD5withRSA/MD5withRSA.html">MD5withRSA</a></li>
+    </ul>
+    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+        <legend>DES</legend>
+    </fieldset>
+    <form class="layui-form" action="DES.php" method="post">
+        <div class="layui-form-item">
+            <label class="layui-form-label">明文</label>
+            <div class="layui-input-block" style="margin-right: 20px;">
+                <textarea name="text" required lay-verify="required" placeholder="请输入一段明文" autocomplete="off" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block" style="margin-top: 20px;">
+                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-normal">重置明文</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
